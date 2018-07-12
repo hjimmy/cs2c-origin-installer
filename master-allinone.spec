@@ -79,7 +79,10 @@ Requires: skopeo-containers
 Requires: socat
 Requires: spax
 Requires: sshpass
-
+Requires: PyYAML
+Requires: libyaml
+Requires: docker >= 1.13
+Requires: ansible >= 2.4
 
 %description
 This origin master all in one

@@ -10,7 +10,9 @@ Group: System Environment/Base
 BuildRoot: /var/tmp/%{name}-buildroot
 Requires: etcd
 Requires: iptables-services
-
+Requires: PyYAML
+Requires: libyaml
+Requires: docker >= 1.13
 
 %description
 This origin etcd all in one

@@ -52,7 +52,9 @@ Requires: skopeo
 Requires: skopeo-containers
 Requires: socat
 Requires: spax
-
+Requires: PyYAML
+Requires: libyaml
+Requires: docker >= 1.13
 
 %description
 This origin node all in one
