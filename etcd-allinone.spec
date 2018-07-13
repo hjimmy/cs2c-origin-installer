@@ -13,6 +13,9 @@ Requires: iptables-services
 Requires: PyYAML
 Requires: libyaml
 Requires: docker >= 1.13
+Requires: bind
+Requires: ntp
+Requires: flannel
 
 %description
 This origin etcd all in one

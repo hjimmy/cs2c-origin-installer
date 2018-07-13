@@ -83,6 +83,10 @@ Requires: PyYAML
 Requires: libyaml
 Requires: docker >= 1.13
 Requires: ansible >= 2.4
+Requires: bind
+Requires: ntp
+Requires: flannel
+
 
 %description
 This origin master all in one

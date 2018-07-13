@@ -55,6 +55,10 @@ Requires: spax
 Requires: PyYAML
 Requires: libyaml
 Requires: docker >= 1.13
+Requires: bind
+Requires: ntp
+Requires: flannel
+
 
 %description
 This origin node all in one
